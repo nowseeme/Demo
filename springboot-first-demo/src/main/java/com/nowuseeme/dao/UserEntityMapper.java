@@ -1,7 +1,8 @@
 package com.nowuseeme.dao;
 
 import com.nowuseeme.entity.UserEntity;
-import com.sun.tools.javac.util.List;
+
+import java.util.List;
 
 public interface UserEntityMapper {
     /**

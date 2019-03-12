@@ -5,10 +5,10 @@ logging:
   level:
     learning: trace
 
+#数据源配置
 spring:
-  #数据源配置
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/demo
+    url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=utf8
     username: root
     password: zaqwsx123
     driver-class-name: com.mysql.jdbc.Driver
