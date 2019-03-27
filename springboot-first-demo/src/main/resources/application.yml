@@ -5,6 +5,7 @@ logging:
   level:
     learning: trace
 
+
 #数据源配置
 spring:
   datasource:
